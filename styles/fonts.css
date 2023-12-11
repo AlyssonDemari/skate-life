@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "grafite";
+    src: url("../components/fonts/RockSalt-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "conteudo";
+    src: url("../components/fonts/Lumanosimo-Regular.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url('../components/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }

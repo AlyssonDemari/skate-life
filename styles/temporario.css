@@ -1,0 +1,189 @@
+:root{
+    --cor0:#8E1A00;
+    --cor1:#8e1a001f;
+    --cor2:#E67800;
+    --cor3:#E65000;
+    --cor4: #222222;
+    --fonte: "grafite"; 
+    --fonte2: "conteudo";
+    --fonte3: "titulo";
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    color:white;
+    font-family: var(--fonte);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    font-size: 20px;
+    color:var(--cor0);
+    text-decoration: none;
+}
+
+nav a{
+    display: inline-block;
+}
+
+nav a li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a li:hover{
+    background-color: red;
+}
+
+.drop1{
+    background-color: var(--cor4);
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px var(--cor1);
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+
+.drop1 a{
+    display: block;
+}
+
+.dropdown:hover .drop1{
+    display: block;
+}
+
+a:hover{
+    color: white;
+    background-color: var(--cor1);
+    transition: 0.3s all;
+    border: 2px solid var(--cor0);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+nav a{
+    display: inline-block;
+}
+
+nav a li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a li:hover{
+    background-color: red;
+}
+
+.drop2{
+    background-color: var(--cor4);
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px var(--cor1);
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+
+.drop2 a{
+    display: block;
+}
+
+.dropdown2:hover .drop2{
+    display: block;
+}
+
+nav a{
+    display: inline-block;
+}
+
+nav a li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a li:hover{
+    background-color: red;
+}
+
+.drop3{
+    background-color: var(--cor4);
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px var(--cor1);
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+
+.drop3 a{
+    display: block;
+}
+
+.dropdown3:hover .drop3{
+    display: block;
+}
+
+a:hover{
+    color: white;
+    background-color: var(--cor1);
+    transition: 0.3s all;
+    border: 2px solid var(--cor0);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+h1{
+    font-weight: 200px;
+    color: var(--cor0);
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+aside{
+    margin-top: 100px;
+}
+
+h2{
+    font-size: 42px;
+    font-family: var(--fonte3);
+    color: var(--cor2);
+    line-height: 40px;
+}
+
+span{
+    color: var(--cor3);
+}
