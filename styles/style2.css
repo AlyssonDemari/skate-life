@@ -158,10 +158,13 @@ img{
     flex-direction: row-reverse;
     align-items: flex-start; /* Alinha os itens ao topo do contêiner */
 }
+.container1 > p{
+    max-width: 450px;
+}
 
 .bruno{
     align-self: center;
-    margin: 20px 0px;
+    margin: 0px 0px;
     max-width: 320px;
     height: 420px;
 }
@@ -190,8 +193,7 @@ img{
     text-align: center;
     width: 480px;
     margin-bottom: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+
 }
 
 h1{
@@ -202,6 +204,7 @@ p{
     text-align: justify;
     font-family: var(--fonte2);
     font-size: 18px;
+    max-width: 450px;
 }
 
 p::first-line{
@@ -241,3 +244,16 @@ p::first-line{
     opacity:1;
 }
 
+
+.content{
+    background-color: pink;
+}
+
+.container10{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container10 > div > p{
+    background-color: rgb(235, 15, 255);
+}
