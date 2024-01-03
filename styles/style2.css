@@ -136,7 +136,6 @@ nav a li:hover{
 /*CONTEUDO*/
 
 main{
-    
     display:flex ;
     flex-direction: column;
     max-width: 800px;
@@ -145,23 +144,19 @@ main{
 }
 
 .container0{
-    background-color: blueviolet;
     display: flex;
     margin: 20px 0px;
 }
 
 .container0 > div > p{
-    background-color: rgb(31, 15, 255);
     padding-left: 20px;
 }
 .container1{
-    background-color: blueviolet;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .container1 > div > p{
-    background-color: rgb(31, 15, 255);
     padding-left: 20px;
 }
 
@@ -174,6 +169,20 @@ main{
     max-width: 450px;
 }
 
+.container2{
+    display: flex;
+}
+
+.trio{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.trio > img{
+    margin: 50px 0px;
+    padding-left: 50px;
+}
+
 .bruno{
     margin-top: 100px;
     max-width: 320px;
@@ -183,40 +192,25 @@ main{
 .jackson{ 
     margin-top: 75px;
 }
+
+.samuel{
+    margin-top: 30px;
+}
 .tittle{
     align-self: center;
     justify-content: center;
     font-size: 20px;
     width: 480px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0px;
 }
-
-.titulo{
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  font-size: 19px;
-  width: 480px;
-  text-align: center;
-
-}
-
-.titulo1{
-    display: flex;
+.tittle0{
     align-self: center;
     justify-content: center;
-    font-size: 19px;
+    font-size: 20px;
     width: 480px;
     text-align: center;
-    margin-top: 0px;
-  }
-
-.content {
-    text-align: center;
-    width: 480px;
-    margin-bottom: 50px;
-
+    margin-top: 50px;
 }
 
 h1{
@@ -224,7 +218,7 @@ h1{
 }
 
 p{
-    text-align: justify;
+    
     font-family: var(--fonte2);
     font-size: 18px;
     max-width: 450px;
@@ -233,52 +227,7 @@ p{
 }
 
 p::first-line{
-    margin-left: 50px;
+    padding-left: 250px;
+    background-color: aqua;
 
-}
-
-/*ASIDE*/
-
-#extra{
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-
-}
-
-.animação{
-    position:relative;
-    display:inline-block;
-    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.animação:after{
-    content:"";
-    position:absolute;
-    opacity:0;
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.animação:hover{
-    transform:scale(1.5,1.5);
-    z-index: 2;
-}
-
-.animação:hover::after{
-    opacity:1;
-}
-
-
-.content{
-    background-color: pink;
-}
-
-.container10{
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: row-reverse;
-}
-.container10 > div > p{
-    background-color: rgb(235, 15, 255);
 }
