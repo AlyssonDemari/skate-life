@@ -71,6 +71,9 @@
     .container1 > div > img{
         display: none;
     }
+    .container1 > div > p{
+        padding-right: 0px;
+    }
     .trio{
         display: none;
     }
