@@ -1,0 +1,94 @@
+@media screen and (max-width: 760px){
+    *{
+        max-width: 412px;
+        margin: 0px;
+        padding: 0px;
+    }
+    img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    header > #title > h1{
+        display: flex;
+        flex-direction: column;
+        line-height: 10px;
+        margin: 21px 0px;
+        justify-content: left;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > nav > ul{
+        max-width: 412px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    main > div > div > h1{
+        max-width: 380px;
+        display: flex;
+        justify-content: center;
+
+    }
+    main > div > div > p{
+        padding-left: 0px;
+        max-width: 380px;
+        display: flex;
+        justify-content: center;
+
+    }
+    div{
+        margin-bottom: 20px ;
+    }
+    .container > div > p{
+        padding-left: 0px;
+        text-align: justify;
+    }
+    .container {
+        display: flex;
+        margin: 20px 0px;
+       flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .container > div > img{
+        display: flex;
+        margin: auto;
+    }
+    .container1 > div > p{
+        padding-left: 0px;
+        text-align: justify;
+    }
+    .container1 {
+        display: flex;
+        margin: 20px 0px;
+       flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .container1 > div > img{
+        display: fl1ex;
+        margin: auto;
+    }
+
+    #extra > div > p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #extra {
+        max-width: 412px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .park{
+        max-width: 380px;
+    }
+}
+
+
+
