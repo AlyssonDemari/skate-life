@@ -27,25 +27,36 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: aqua;
+
     }
 
     main > div > div > h1{
         max-width: 380px;
         display: flex;
         justify-content: center;
+
     }
     main > div > div > p{
         padding-left: 0px;
         max-width: 380px;
         display: flex;
         justify-content: center;
+
     }
     div{
         margin-bottom: 20px ;
     }
     .container0 > div > p{
         padding-left: 0px;
+        text-align: justify;
+    }
+    .container1 > div > p{
+        padding-left: 0px;
+        text-align: justify;
+    }
+    .container2 > div > p{
+        padding-left: 0px;
+        text-align: justify;
     }
     .container0 {
         display: flex;
@@ -53,12 +64,15 @@
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .container0 > div > div > img{
+    .container0 > div > img{
         display: flex;
-      justify-content: center;
+        margin: auto;
     }
-    .container1 > div > p{
-        padding-left: 0px;
+    .container1 > div > img{
+        display: none;
+    }
+    .trio{
+        display: none;
     }
 }
 
