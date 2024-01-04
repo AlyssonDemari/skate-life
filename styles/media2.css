@@ -1,63 +1,65 @@
 @media screen and (max-width: 760px){
-    header{
-        flex-direction: column;
-    }
-
-    .menu{
-        margin-left: 20px;
-    }
-
-    ul{
+    *{
+        max-width: 412px;
         margin: 0px;
-
+        padding: 0px;
     }
-    main{
+    img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    header > #title > h1{
         display: flex;
         flex-direction: column;
-        max-width: 382px;
-    }
-
-    h1{
-        max-width: 300px;
-        margin-top: 20px;
-        font-size: 28px;
-    }
-
-    p{
-        max-width: 382px;
-    }
-     p::first-line{
-        margin-right: 10px;
-     }
-
-    .content{
-        margin-bottom: 0px;
-    }
-    .container1 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start; /* Alinha os itens ao topo do contêiner */
-       max-width: 380px; 
-    }
-
-    .titulo1{
-        margin-top: 0px;
-    }
-
-    .drop1 .drop2 .drop3{
-        background-color: var(--cor4);
-    border-radius: 40px;
-    box-shadow: 10px 10px 5px var(--cor1);
-    padding: 10px;
-    position: absolute;
-    display: none;
-
+        line-height: 10px;
+        margin: 21px 0px;
+        justify-content: left;
     }
     
-    img{
-        display: none;
+    header{
+        display: flex;
+        flex-direction: column;
     }
 
+    header > nav > ul{
+        max-width: 412px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: aqua;
+    }
+
+    main > div > div > h1{
+        max-width: 380px;
+        display: flex;
+        justify-content: center;
+    }
+    main > div > div > p{
+        padding-left: 0px;
+        max-width: 380px;
+        display: flex;
+        justify-content: center;
+    }
+    div{
+        margin-bottom: 20px ;
+    }
+    .container0 > div > p{
+        padding-left: 0px;
+    }
+    .container0 {
+        display: flex;
+        margin: 20px 0px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .container0 > div > div > img{
+        display: flex;
+      justify-content: center;
+    }
+    .container1 > div > p{
+        padding-left: 0px;
+    }
 }
 
 

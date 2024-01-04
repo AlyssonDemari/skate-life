@@ -3,10 +3,6 @@
         flex-direction: column;
     }
 
-    .menu{
-        margin-left: 20px;
-    }
-
  .drop1 .drop2 .drop3{
     background-color: var(--cor4);
     border-radius: 40px;

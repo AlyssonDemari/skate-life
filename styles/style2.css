@@ -218,7 +218,6 @@ h1{
 }
 
 p{
-    
     font-family: var(--fonte2);
     font-size: 18px;
     max-width: 450px;
@@ -226,8 +225,6 @@ p{
     padding: 0px;
 }
 
-p::first-line{
-    padding-left: 250px;
-    background-color: aqua;
-
-}
+p::first-line {
+    margin-top: 20px; /* Ajuste a margem conforme necessário */
+  }
